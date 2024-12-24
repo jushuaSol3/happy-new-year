@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(75deg, rgb(236, 146, 146),rgb(179, 179, 238),rgb(193, 243, 193));
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* header- content */
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: top;
+    grid-column: column;
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    padding-bottom: 1%;
+}
+.content{
+    background: transparent;
+    border: #1a19190e solid 1px;
+    padding:10%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1-style{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* signup content */
+
+.login-container{
+    margin: 20%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: top;
+    grid-column: row;
+    position: absolute;
+    top: 5%;
+    left: 31%;
+}
+.content-login{
+    background: transparent;
+    border: #1a19190e solid 1px;
+    padding:30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    position: inherit;
+
+}
+.form-control{
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+
+}
+.btn-primary {
+    background: #e4747441;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: 1s;
+
+}
+
+/* hover */
+
+.btn-primary:hover{
+    background: #e47474;
+    transition: 1s;
+}
